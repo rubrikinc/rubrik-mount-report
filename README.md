@@ -3,6 +3,10 @@
 # Overview
 * Rubrik Script to report on Live Mount recoveries between two dates
 
+# Dependencies
+* Ruby 2.4.x or greater
+* Faraday Gem
+
 # How to Use
 ```
 .creds - JSON formatted configuration (or resort to including credentials in command line execution)

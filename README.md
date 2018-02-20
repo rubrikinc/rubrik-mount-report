@@ -58,7 +58,7 @@ Page 17
 Report was saved as 01-01-2018-to-02-01-2018
 ```
 
-# Result File
+# Result File Excerpt
 
 ```
 Mount Time, Object Name, Message

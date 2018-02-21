@@ -52,15 +52,16 @@ until done
   end
   o=restCall('rubrik',call,'','get')
   o['data'].each do |l|
-    if l['eventInfo'].include? "Mounted" 
+  #  if l['eventInfo'].include? "Mounted" 
       dataset << l
       last = l['id']
-    end
+  #  end
   end
   if o['hasMore'] == false
     done=1
   end
 end
+
 header="Mount Time, Object Name, Message"
 reportname = Options.from_date + "-to-" + Options.to_date
 IO.write(reportname + ".csv",header + "\n") 

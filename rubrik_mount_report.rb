@@ -68,4 +68,4 @@ dataset.each do |d|
   line = (d['time'] +","+d['objectName']+","+JSON.parse(d['eventInfo'])['message'])
   IO.write(reportname + ".csv",line + "\n",mode: 'a') 
 end
-pp "Report was saved as " + reportname
+pp "Report was saved as " + reportname + ".csv"

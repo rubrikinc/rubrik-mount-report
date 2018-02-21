@@ -59,7 +59,7 @@ Page 14
 Page 15
 Page 16
 Page 17
-Report was saved as 01-01-2018-to-02-01-2018
+Report was saved as 01-01-2018-to-02-01-2018.csv
 ```
 
 # Result File Excerpt

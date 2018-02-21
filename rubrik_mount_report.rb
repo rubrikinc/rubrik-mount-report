@@ -27,6 +27,11 @@ if Options.login then
   exit()
 end
 
+if !Options.from_date || !Options.to_date 
+  print "Message: --from and --to must be specified"
+  exit()
+end
+
 dataset = Array.new
 last = false
 done = false

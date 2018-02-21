@@ -10,8 +10,7 @@ class ParseOptions
   options = OpenStruct.new
 
   opt_parser = OptionParser.new do |opts|
-    opts.banner = "Usage: report_live_mounts.rb [options]"
-
+    opts.banner = "Usage: %prog [options]"
     opts.separator ""
     opts.separator "Specific options:"
     opts.on('-l', '--login', "Perform no operations but test Rubrik Connectivity") do |login|
